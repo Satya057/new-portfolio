@@ -7,5 +7,5 @@ export default defineConfig({
     build: {
         chunkSizeWarningLimit: 100000000
     },
-    base: "/3d-react-portfolio",
+    base: "/new-portfolio",
 })
