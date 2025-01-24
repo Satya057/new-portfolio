@@ -18,10 +18,10 @@ const Hero = () => {
       showCursor: true, 
       strings: [
         'Full Stack Web Developer', 
-        "Operation Specialist",
-        'Content Writer',
+       
         'Software Developer',
-        'Tech Enthusiast' 
+        'ServiceNow Developer' ,
+        "Operation Specialist"
          
       ] 
     });

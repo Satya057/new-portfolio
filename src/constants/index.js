@@ -13,26 +13,12 @@ import {
       link: "https://www.geeksforgeeks.org/user/singhsatyaprakash057/",
       icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
     },
-    // {
-    //   link: "https://www.coursera.org/account/accomplishments/specialization/7V2SFZ9YWWRL",
-    //   icon: "https://img.icons8.com/fluency/344/google-cloud.png",
-    // },
-    // {
-    //   link: "https://www.qwiklabs.com/public_profiles/48dcd029-03b4-437b-9dd3-ef7d65958eb0",
-    //   icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-qwiklabs-provides-real-cloud-environments-that-help-developers-logo-color-tal-revivo.png",
-    // },
+   
     {
       link: "https://www.hackerrank.com/profile/singhsatyapraka2",
       icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo.png",
     },
-    // {
-    //   link:"https://dev.to/shinchancode",
-    //   icon: hf,
-    // },
-    // {
-    //   link:"https://www.holopin.io/@shinchancode#badges",
-    //   icon: holopin,
-    // },
+    
   ];
 
   const achievements = [
@@ -496,15 +482,43 @@ import {
 
   const experiences = [
     {
-      title: "Full Stack Web Devloper",
+      title: "Software Intern",
+      company_name: "Ajackus",
+      icon: "https://media.designrush.com/agencies/533437/conversions/Ajackus-logo-profile.jpg",
+      iconBg: "#383E56",
+      date: "09/2024 - 01/2025",
+      link: "",
+      points: [
+        "Contributing to the development of secure and scalable business solutions for global clients.",
+        "Gaining experience in various tech domains including fintech, health tech, travel tech, and prop-tech.",
+        "Collaborating with agile teams to solve complex business challenges.",
+      ],
+      link: "https://drive.google.com/file/d/1k-P-SiBZa-n7pCRguXUj_WybldanuJJH/view?usp=sharing",
+    },
+    {
+      title: "Full Stack Developer",
+      company_name: "CodeAppto",
+      icon: "https://media.licdn.com/dms/image/v2/D4E0BAQGFgsbW2hQBGQ/company-logo_200_200/company-logo_200_200/0/1680857644326/codeapto_logo?e=2147483647&v=beta&t=0-kfITKcw4Ar70Uo90LvM8ANufmi4sATCRrTxBosmpU",
+      iconBg: "#383E56",
+      date: "03/2023 - 08/2024",
+      // link: "",
+      points: [
+        "Developed and maintained diverse web-based tools and converters using React and Node.js.",
+        "Created bespoke solutions for startups across various industries.",
+        "Enhanced company's online presence and user engagement through innovative web applications.",
+        "Collaborated in a team to deliver high-quality, customized solutions for specific client needs.",
+      ],
+      // link: "",
+    },
+    {
+      title: "Full Stack Web Developer",
       company_name: "Riseupp Edutech Pvt Ltd",
-      icon: "https://pbs.twimg.com/profile_images/1618631076825698304/dOMg8g3H_400x400.jpg",
+      icon: "https://s3-eu-west-1.amazonaws.com/tpd/logos/66e5685499f244b7d9fbc94c/0x0.png",
       iconBg: "#383E56",
       date: "Dec 2022 - March 2023",
       link: "",
       points: [
         "I worked on creating single sign up page using Google Firebase and scrapping course database from EDX via API.",
-
         "Worked on React.JS, React-Bootstrap, CSS",
         "Adapted Agile methodologies, CI/CD, and Test-Driven Programming to uphold strong programming practices.",
         "Using technologies like html, SpringBoot, Css, React and AngularJS.",
@@ -516,18 +530,21 @@ import {
       company_name: "Masai School",
       icon: "https://lwfiles.mycourse.app/masai-school-public/283427801ef0376bad3f197fad544f38.png",
       iconBg: "#383E56",
-      date: "June  2022 -  june 2023",
+      date: "June 2022 - June 2023",
       link: "",
       points: [
-        "Designing and implementing a system for fine-grained access control and authorization of digital assets and operations",
-        "Utilizing advanced cryptographic techniques to ensure secure and efficient access management.",
-        "Integrating with Cross-Functional Technologies",
-        "Collaborating with technologies like Spring Boot and React to develop and integrate high-quality products.",
-        "Ensuring seamless integration and interoperability between various system components.",
+        "Successfully completed an intensive Full-Stack Development course with a focus on the MERN stack (MongoDB, Express.js, React.js, Node.js).",
+        "Gained hands-on experience in building and deploying scalable web applications using modern tools and frameworks.",
+
+        "Frontend Development: Responsive design using HTML, CSS, JavaScript, React.js.",
+        "Backend Development: REST API development with Node.js and Express.js.",
+        "Database Management: Implemented CRUD operations and optimized queries using MongoDB.",
+        "Version Control: Proficient with Git and GitHub for collaborative development.",
+        "Problem Solving: Enhanced coding efficiency through data structures and algorithms.",
+        "Capstone Project: Built a full-stack e-commerce platform integrating user authentication, dynamic dashboards, and payment gateway.",
       ],
       link: "https://drive.google.com/file/d/1Xe3Ye08EZaCuOC865r3C1L6LutlnuI3i/view?usp=sharing",
     },
-    
   ];
   
   const educations = [
