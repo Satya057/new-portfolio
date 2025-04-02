@@ -22,7 +22,7 @@ const ProjectCard = ({
   source_link,
 }) => {
   return (
-    <motion.div whileInView={{ opacity: 1 , transform : 'none'}} variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div whileInView={{ opacity: 1, transform: 'none' }} variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -31,48 +31,46 @@ const ProjectCard = ({
         }}
         className='project-box bg-tertiary p-5 rounded-2xl sm:w-[330px] w-full'
       >
-        <div className='Box1 relative w-full h-[180px]'>
+        <div className='Box1'>
           <img
             src={image}
             alt='project_image'
-            className='image w-full h-full object-cover rounded-2xl'
+            className='image rounded-2xl'
           />
 
-        <div className='absolute inset-0 flex justify-center card-img_hover' style={{alignItems: "center",}}>
-          <h3 className='text-black font-bold text-[16px]'>{name}</h3>
+          <div className='absolute inset-0 flex justify-center items-center'>
+            <h3 className='text-black font-bold text-[16px]'>{name}</h3>
           </div>
 
-          <div className='title absolute inset-0 flex justify-end card-img_hover'>
+          <div className='absolute inset-0 flex justify-end m-3 gap-2'>
             <div
               onClick={() => window.open(source_link, "_blank")}
-              className='black-gradient w-10 h-10 m-2 rounded-full flex justify-center items-center cursor-pointer'
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
-
               <img
                 src={demo}
-                alt='source code'
+                alt='demo'
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 m-2 rounded-full flex justify-center items-center cursor-pointer'
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
                 src={github}
-                alt='source code'
+                alt='github'
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
-
-          </div>          
+          </div>
         </div>
 
-        <div className='content mt-5'>
-          <p className='mt-2 text-secondary text-[14px]' style={{textAlign:'justify'}}>{description}</p>
+        <div className='content'>
+          <p className='description mt-4 text-secondary'>{description}</p>
         </div>
 
-        <div className='content mt-4 flex flex-wrap gap-2'>
+        <div className='tags'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}

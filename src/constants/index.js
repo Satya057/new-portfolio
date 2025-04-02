@@ -339,6 +339,28 @@ import {
 
   export const webProject = [
     {
+      name: "Elevate BPM Website",
+      description:
+        "Developed and implemented a modern, responsive user interface for Elevate BPM, a leading audit firm in UAE providing accounting, auditing, and business management services. Created an engaging digital platform using React 18 and Next.js 15, featuring interactive animations with Framer Motion and AOS, dynamic content sliders with Embla Carousel, and optimized performance with lazy loading.",
+      tags: [
+        {
+          name: "React 18",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next.js 15",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://elevateauditing.com/wp-content/uploads/2024/10/contact-bg.jpg",
+      source_link: "https://elevatebpm.com/",
+      source_code_link: "https://elevatebpm.com/",
+    },
+    {
       name: "lumen5.com",
       description:
         "Created an impressive website made using React , Lumen5 is a video creation platform designed for brands and businesses to produce engaging video content for social posts, stories, and ads.Responsive webpage is made with user friendly interface",
@@ -400,7 +422,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://mir-s3-cdn-cf.behance.net/projects/404/ec7d5d189728261.Y3JvcCw1MzI4LDQxNjgsMCww.png",
+      image: "data:image/png;base64,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",
       source_link: "https://sick-dress.vercel.app/",
       source_code_link: "https://github.com/Satya057/-sick-dress-4939",
     },
@@ -453,34 +475,26 @@ import {
       source_code_link: "https://github.com/Satya057/Travel-corporation-",
     },
 
-    {
-      name: "E-commerce",
-      description:
-        "This is an e-commerce web application that allows users to browse products, add them to their cart, and view the cart summary. The application is designed to be responsive and user-friendly, providing a seamless shopping experience.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Html css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: "https://i.ibb.co/HX0SbMm/Screenshot-2024-06-28-090421.png",
-      source_link: "https://github.com/shinchancode/DBMS-SQL-Lab",
-      source_code_link: "https://github.com/shinchancode/DBMS-SQL-Lab",
-    },
+     
   ];
 
 
 
 
   const experiences = [
+    {
+      title: "Full Stack Developer",
+      company_name: "CodeAppto",
+      icon: "https://media.licdn.com/dms/image/v2/D4E0BAQGFgsbW2hQBGQ/company-logo_200_200/company-logo_200_200/0/1680857644326/codeapto_logo?e=2147483647&v=beta&t=0-kfITKcw4Ar70Uo90LvM8ANufmi4sATCRrTxBosmpU",
+      iconBg: "#383E56",
+      date: "06/2023 - 03/2025",
+      points: [
+        "Developed and maintained diverse web-based tools and converters using React and Node.js.",
+        "Created bespoke solutions for startups across various industries.",
+        "Enhanced company's online presence and user engagement through innovative web applications.",
+        "Collaborated in a team to deliver high-quality, customized solutions for specific client needs.",
+      ],
+    },
     {
       title: "Software Intern",
       company_name: "Ajackus",
@@ -495,21 +509,7 @@ import {
       ],
       link: "https://drive.google.com/file/d/1k-P-SiBZa-n7pCRguXUj_WybldanuJJH/view?usp=sharing",
     },
-    {
-      title: "Full Stack Developer",
-      company_name: "CodeAppto",
-      icon: "https://media.licdn.com/dms/image/v2/D4E0BAQGFgsbW2hQBGQ/company-logo_200_200/company-logo_200_200/0/1680857644326/codeapto_logo?e=2147483647&v=beta&t=0-kfITKcw4Ar70Uo90LvM8ANufmi4sATCRrTxBosmpU",
-      iconBg: "#383E56",
-      date: "03/2023 - 08/2024",
-      // link: "",
-      points: [
-        "Developed and maintained diverse web-based tools and converters using React and Node.js.",
-        "Created bespoke solutions for startups across various industries.",
-        "Enhanced company's online presence and user engagement through innovative web applications.",
-        "Collaborated in a team to deliver high-quality, customized solutions for specific client needs.",
-      ],
-      // link: "",
-    },
+   
     {
       title: "Full Stack Web Developer",
       company_name: "Riseupp Edutech Pvt Ltd",
