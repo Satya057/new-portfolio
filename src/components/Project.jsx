@@ -2,8 +2,8 @@ import Tilt from "react-parallax-tilt";
 import { motion, transform } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { styles } from "../styles";
-import { github } from "../assets";
-import { demo } from "../assets";
+
+import { demo, github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import {list} from "../constants"
 import { fadeIn, textVariant } from "../utils/motion";
@@ -53,16 +53,23 @@ const ProjectCard = ({
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='github'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
+            
+            {/* Only show GitHub icon for existing projects, not for the three new ones */}
+            {name !== "Discount Plumbing & Rooter" && 
+             name !== "Deva Rentals" && 
+             name !== "Newrise Cleaning & Contractors" && (
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <img
+                  src={github}
+                  alt='github'
+                  className='w-1/2 h-1/2 object-contain'
+                />
+              </div>
+            )}
+
           </div>
         </div>
 

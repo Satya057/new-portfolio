@@ -40,6 +40,7 @@ import {
     {
       title: "Diploma in Computer Application: Completed diploma.",
     },
+
   ];
   
   
@@ -57,24 +58,16 @@ import {
       icon: javascript,
     },
     {
-      name:"Bootstrap",
-      icon: "https://img.icons8.com/color/480/000000/bootstrap.png",
-    },
-    {
-      name:"Google Cloud",
-      icon: "https://img.icons8.com/color/480/000000/google-cloud.png",
-    },
-    // {
-    //   name:"C++ tool",
-    //   icon: "https://img.icons8.com/color/480/000000/c-plus-plus-logo.png",
-    // },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "Bootstrap",
+      icon: "https://img.icons8.com/color/480/000000/bootstrap.png",
     },
     {
       name: "Node JS",
@@ -93,7 +86,7 @@ import {
       icon: git,
     },
     {
-      name:"MySql",
+      name: "MySql",
       icon: "https://img.icons8.com/color/480/000000/mysql-logo.png",
     },
   ];
@@ -337,7 +330,73 @@ import {
 
 
 
-  export const webProject = [
+  const webProject = [
+    {
+      name: "Discount Plumbing & Rooter",
+      description:
+        "Your Trusted Expert From Complete Sewer & Drain Line Replacements to Water Damage & Crawl Space Clean Ups. Fast, Efficient, & Reliable - Clean Quality Services at Reasonable Prices. Your Low-Cost Leader in the Bay Area Since 1997!",
+      tags: [
+        {
+          name: "Plumbing Services",
+          color: "blue-text-gradient",
+        },
+                {
+          name: "24/7 Emergency",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Bay Area",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://launchvyapar.com/img/portfolio-8.png",
+      source_link: "https://discountplumbingandrooter.com/",
+      source_code_link: "https://discountplumbingandrooter.com/",
+    },
+    {
+      name: "Deva Rentals",
+      description:
+        "Find the Perfect Property for Your Lifestyle. Discover your dream home with Deva Rentals - where quality meets comfort. Browse through our curated selection of properties and find the perfect match for your needs.",
+      tags: [
+        {
+          name: "Real Estate",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Property Rental",
+          color: "green-text-gradient",
+        },
+                {
+          name: "Lifestyle",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://launchvyapar.com/img/portfolio-9.png",
+      source_link: "https://devarentals.com/",
+      source_code_link: "https://devarentals.com/",
+    },
+    {
+      name: "Newrise Cleaning & Contractors",
+      description:
+        "Your go-to team for expert cleaning and home improvement in Edmonton. From deep cleaning to drywall and roofing — we deliver quality with care. Clean. Repair. Refresh. All in one place.",
+      tags: [
+        {
+          name: "Cleaning Services",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Home Improvement",
+          color: "green-text-gradient",
+        },
+                {
+          name: "Edmonton",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://i.ibb.co/zW93P893/newrise.png",
+      source_link: "https://newriseyeg.com/",
+      source_code_link: "https://newriseyeg.com/",
+    },
     {
       name: "Elevate BPM Website",
       description:
@@ -422,7 +481,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "data:image/png;base64,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",
+      image: "data:image/png;base64,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",
       source_link: "https://sick-dress.vercel.app/",
       source_code_link: "https://github.com/Satya057/-sick-dress-4939",
     },
@@ -483,6 +542,16 @@ import {
 
   const experiences = [
     {
+      title: "Freelance Full Stack Developer",
+      company_name: "Upwork",
+      date: "2025*",
+      points: [
+        "Delivering high-quality full-stack solutions using React, Node.js, MongoDB, and ServiceNow.",
+        "Building responsive and interactive web interfaces for diverse client projects.",
+        "Maintaining excellent client relationships with consistent 5⭐ feedback and global collaboration.",
+      ],
+    },
+    {
       title: "Full Stack Developer",
       company_name: "CodeAppto",
       icon: "https://media.licdn.com/dms/image/v2/D4E0BAQGFgsbW2hQBGQ/company-logo_200_200/company-logo_200_200/0/1680857644326/codeapto_logo?e=2147483647&v=beta&t=0-kfITKcw4Ar70Uo90LvM8ANufmi4sATCRrTxBosmpU",
@@ -501,7 +570,6 @@ import {
       icon: "https://media.designrush.com/agencies/533437/conversions/Ajackus-logo-profile.jpg",
       iconBg: "#383E56",
       date: "09/2024 - 01/2025",
-      link: "",
       points: [
         "Contributing to the development of secure and scalable business solutions for global clients.",
         "Gaining experience in various tech domains including fintech, health tech, travel tech, and prop-tech.",
@@ -509,14 +577,12 @@ import {
       ],
       link: "https://drive.google.com/file/d/1k-P-SiBZa-n7pCRguXUj_WybldanuJJH/view?usp=sharing",
     },
-   
     {
       title: "Full Stack Web Developer",
       company_name: "Riseupp Edutech Pvt Ltd",
       icon: "https://s3-eu-west-1.amazonaws.com/tpd/logos/66e5685499f244b7d9fbc94c/0x0.png",
       iconBg: "#383E56",
       date: "Dec 2022 - March 2023",
-      link: "",
       points: [
         "I worked on creating single sign up page using Google Firebase and scrapping course database from EDX via API.",
         "Worked on React.JS, React-Bootstrap, CSS",
@@ -531,7 +597,6 @@ import {
       icon: "https://lwfiles.mycourse.app/masai-school-public/283427801ef0376bad3f197fad544f38.png",
       iconBg: "#383E56",
       date: "June 2022 - June 2023",
-      link: "",
       points: [
         "Successfully completed an intensive Full-Stack Development course with a focus on the MERN stack (MongoDB, Express.js, React.js, Node.js).",
         "Gained hands-on experience in building and deploying scalable web applications using modern tools and frameworks.",
@@ -552,7 +617,7 @@ import {
       degree: "Master in Business Administration ",
       branch:
         "Operation & Management",
-  
+      
       name: " SCDL, Pune",
       year: "( 2021- 2023)",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_IipRxd51o6PLRD5Mpqk_MO8GFY3uEMycQ&s",
@@ -561,20 +626,20 @@ import {
       degree:
         "Bachelor of Computer Application (BCA)",
       branch: "Computer Science",
-       
+      
       name: "Rajarshi School of Management And Technology",
       year: "2016-2019",
       image: "https://media.collegedekho.com/media/img/institute/crawled_images/14_ikCGnRs.jpg",
     },
+
     {
-      degree:
-        "12th Grade",
-      branch : "Science",
-     name: "Shri Shivaji National Inter College Hansipur Mirzapur",
+      degree: "12th Grade",
+      branch: "Science",
+      name: "Shri Shivaji National Inter College Hansipur Mirzapur",
       year: "2016",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZXevjuoGM1dvcX1QJp_-VdjczLBosvv-lA&s",
     },
     
   ];
   
-  export { list, profiles, technologies, experiences, educations, achievements };
+  export { list, profiles, technologies, experiences, educations, achievements, webProject };
